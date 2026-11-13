@@ -51,7 +51,7 @@ public class BankingAccountManagement {
             double overdraftLimit = sc.nextDouble();
             account = new CurrentAccount(accountNumber,balance,overdraftLimit);
         }
-        System.out.println("Final Balance: " + account.calculateFinalBalance());
+        System.out.println(account.calculateFinalBalance());
         sc.close();
     }
 }
